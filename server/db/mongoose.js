@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise; //set it up to use promises
-mongoose.connect('mongodb://localhost:27017/TodoApp');
+// mongoose.connect('mongodb://localhost:27017/TodoApp');
 
 let db = {
   localhost: 'mongodb://localhost:27017/TodoApp',
